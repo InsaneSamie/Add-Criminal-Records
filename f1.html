@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <title>Details 1</title>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/css/bootstrap.min.css">
+  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.1/jquery.min.js"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.4.1/js/bootstrap.min.js"></script>
+</head>
+<body>
+<div class="tab-content p-3">
+    <div class="tab-pane active" id="edit1">
+        <form autocomplete="off">
+            <div class="form-group row">
+                <label class="col-lg-3 col-form-label form-control-label">Full name</label>
+                <div class="col-lg-9">
+                    <input class="form-control" type="text" >
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-lg-3 col-form-label form-control-label">Father's name</label>
+                <div class="col-lg-9">
+                    <input class="form-control" type="text">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-lg-3 col-form-label form-control-label">Date of Birth</label>
+                <div class="col-lg-9">
+                    <input type="date" name="birthday">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-lg-3 col-form-label form-control-label">Gender</label>
+                <div class="col-lg-9">
+                    <input type="radio" id="male" name="gender" value="male">
+                    <label for="male">Male</label>
+                    <input type="radio" id="female" name="gender" value="female">
+                    <label for="female">Female</label>
+                    <input type="radio" id="other" name="gender" value="other">
+                    <label for="other">Other</label>
+                </div>
+            </div>
+        
+            <div class="form-group row">
+                <label class="col-lg-3 col-form-label form-control-label">Religion/Caste</label>
+                <div class="col-lg-9">
+                    <input class="form-control" type="text">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-lg-3 col-form-label form-control-label">Permanent Address</label>
+                <div class="col-lg-9">
+                    <input class="form-control" type="text" value="" placeholder="Street">
+                </div>
+                <div class="col-lg-6">
+                    <input class="form-control" type="text" value="" placeholder="City">
+                </div>
+                <div class="col-lg-3">
+                    <input class="form-control" type="text" value="" placeholder="District">
+                </div>
+                <div class="col-lg-3">
+                    <input class="form-control" type="text" value="" placeholder="State">
+                </div>
+            </div>
+            <div class="form-group row">
+                <label class="col-lg-3 col-form-label form-control-label">Current Address</label>
+                <div class="col-lg-9">
+                    <input class="form-control" type="text" value="" placeholder="Street">
+                </div>
+                <div class="col-lg-6">
+                    <input class="form-control" type="text" value="" placeholder="City">
+                </div>
+                <div class="col-lg-3">
+                    <input class="form-control" type="text" value="" placeholder="District">
+                </div>
+                <div class="col-lg-3">
+                    <input class="form-control" type="text" value="" placeholder="State">
+                </div>
+            </div>
+
+            <div class="form-group row">
+                <label class="col-lg-3 col-form-label form-control-label"></label>
+                <div class="col-lg-9">
+                    <input type="reset" class="btn btn-primary" value="Reset"> 
+                    <input type="button" class="btn btn-light px-5"value="Save & Next"> 
+                    <input type="button" class="btn btn-danger" value="Cancel"> 
+                </div>
+            </div>
+            
+    
+        </form>
+    </div>
+   
+</div>
+</body>
+</html>
